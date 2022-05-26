@@ -24,5 +24,4 @@ public class ImagemController {
         final String nomePais = new Gson().fromJson(nome, HashMap.class).get("nomePais").toString();
         return imagemService.compararImagem(nomePais);
     }
-
 }

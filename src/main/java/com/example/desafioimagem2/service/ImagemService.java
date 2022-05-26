@@ -98,6 +98,7 @@ public class ImagemService {
         System.out.println();
         System.out.println(size);
 
+        Thread.sleep(2000);
         ThreadCompare.similaridades.forEach(
                 e -> System.out.println("País: " + e.get("nomeBandeira") + " -> similaridade: " + e.get("similaridade")));
 
